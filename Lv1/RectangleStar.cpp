@@ -7,13 +7,15 @@ int main(void) {
     int a;
     int b;
     string temp;
-    temp = 
-    for(int i=0; i<a;i++){
-        for(int j=0;j<b;j++){
-            
-        }
-    }
+    
     cin >> a >> b;
-    cout << temp << endl;
+    
+    for(int i=0; i<a;i++){
+        temp += '*';
+    }
+    for(int j=0;j<b;j++){
+        cout << temp << endl;
+    }
+    
     return 0;
 }
