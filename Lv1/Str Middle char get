@@ -1,0 +1,18 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+string solution(string s) {
+    string answer = "";
+    int length = s.length();
+    int middle = s.length()/2;
+    
+    if(length%2==0){
+        answer += s[middle-1];
+        answer += s[middle];
+    }else{
+        answer += s[middle];
+    }
+    return answer;
+}
