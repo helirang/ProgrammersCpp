@@ -17,6 +17,6 @@ int solution(vector<vector<int>> sizes) {
 		if (maxWidth <= big)maxWidth = big;
 		if (maxHeigth <= small)maxHeigth = small;
 	}
-    // 뽑힌 가장 max 변수들을 곱해서 반환
+    // 뽑힌 max 변수들을 곱해서 반환
 	return maxWidth * maxHeigth;
 }
