@@ -16,3 +16,5 @@ int solution(int n) {
     }
     return answer;
 }
+
+"N의 약수를 구할 때는, 1부터 N의 제곱근 까지의 수만 0으로 나누어 떨어지는지 확인하면 된다!"
