@@ -23,4 +23,4 @@ string solution(string s) {
     }
     answer = to_string(min) + " " + to_string(max);
     return answer;
-}
+} 
