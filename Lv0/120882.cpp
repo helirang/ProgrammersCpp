@@ -58,5 +58,5 @@ vector<int> solution(vector<vector<int>> score) {
 //        answer.push_back(tempMap[average]);
 //    }
 //
-//    return answer;
+//    return answer; 
 //}
